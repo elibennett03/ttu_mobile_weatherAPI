@@ -1,6 +1,7 @@
 import requests
 import json
 from datetime import datetime, timedelta, timezone
+from dateutil.parser import isoparse
 
 api_key = "grnvOEg0pA3JJ7QXED2CwyY8vb4wLr2i"
 lat = 36.174809
@@ -24,7 +25,7 @@ def filter_next_24_hours(data):
 
     filtered_data = [
         item for item in data['timelines']['hourly']
-        if current_time <= datetime.fromisoformat(item['time']).replace(tzinfo=timezone.utc) <= next_24_hours
+        if current_time <= isoparse(item['time']) <= next_24_hours
     ]
 
     return filtered_data
