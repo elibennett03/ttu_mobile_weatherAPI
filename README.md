@@ -21,3 +21,5 @@ iceAccumulation: Indicates the accumulation of ice. A value greater than 0 sugge
 Weather Codes:
 
 weatherCode: This code typically corresponds to specific weather conditions. For example, 1000 might represent clear skies, whereas other codes might represent various types of precipitation or cloudiness. Refer to the API documentation for exact weather codes and their meanings.
+
+convert time to central time zone in app
