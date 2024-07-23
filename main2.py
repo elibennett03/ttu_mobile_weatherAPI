@@ -20,12 +20,12 @@ def fetch_weather(api_key, lat, lon):
         response.raise_for_status()
 
 def filter_next_24_hours(data):
-    current_time = datetime.now(timezone.utc)
+    current_time = datetime.now(timezone.utc).replace(minute=0, second=0, microsecond=0)
     next_24_hours = current_time + timedelta(hours=24)
 
     filtered_data = [
         item for item in data['timelines']['hourly']
-        if current_time <= datetime.fromisoformat(item['time']).replace(tzinfo=timezone.utc) <= next_24_hours
+        if current_time <= datetime.fromisoformat(item['time'].replace("Z", "+00:00")) < next_24_hours
     ]
 
     return filtered_data
