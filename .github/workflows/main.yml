@@ -1,11 +1,9 @@
 name: Run Weather Script
 
 on:
-  push:
-    branches:
-      - main
   schedule:
     - cron: '0 * * * *'  # Runs every hour
+  workflow_dispatch:
 
 jobs:
   run-script:
@@ -15,12 +13,12 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
       with:
-        persist-credentials: false  # This will allow us to use a custom token for pushing changes
+        token: ${{ secrets.PAT_TOKEN }}
 
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
-        python-version: '3.8'
+        python-version: '3.12'
 
     - name: Install dependencies
       run: |
@@ -41,4 +39,4 @@ jobs:
         git commit -m "Update weather data"
         git push
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
