@@ -2,17 +2,17 @@
     {
         "time": "2024-11-19T03:00:00Z",
         "values": {
-            "cloudBase": 0.55,
-            "cloudCeiling": 0.55,
+            "cloudBase": 0.56,
+            "cloudCeiling": 0.56,
             "cloudCover": 100,
-            "dewPoint": 11.69,
-            "evapotranspiration": 0.07,
+            "dewPoint": 11.63,
+            "evapotranspiration": 0.075,
             "freezingRainIntensity": 0,
             "humidity": 75,
             "iceAccumulation": 0,
             "iceAccumulationLwe": 0,
             "precipitationProbability": 0,
-            "pressureSurfaceLevel": 972.04,
+            "pressureSurfaceLevel": 971.49,
             "rainAccumulation": 0,
             "rainAccumulationLwe": 0,
             "rainIntensity": 0,
@@ -29,16 +29,16 @@
             "uvIndex": 0,
             "visibility": 16,
             "weatherCode": 1001,
-            "windDirection": 173.38,
-            "windGust": 10.38,
-            "windSpeed": 5.13
+            "windDirection": 173.69,
+            "windGust": 10.5,
+            "windSpeed": 5.19
         }
     },
     {
         "time": "2024-11-19T04:00:00Z",
         "values": {
-            "cloudBase": 7.51,
-            "cloudCeiling": null,
+            "cloudBase": 7.5,
+            "cloudCeiling": 7.82,
             "cloudCover": 100,
             "dewPoint": 11.5,
             "evapotranspiration": 0.072,
@@ -65,7 +65,7 @@
             "visibility": 16,
             "weatherCode": 1001,
             "windDirection": 160,
-            "windGust": 8.15,
+            "windGust": 10.09,
             "windSpeed": 4.16
         }
     },
@@ -100,14 +100,14 @@
             "visibility": 16,
             "weatherCode": 1001,
             "windDirection": 160,
-            "windGust": 10.92,
+            "windGust": 10,
             "windSpeed": 4.76
         }
     },
     {
         "time": "2024-11-19T06:00:00Z",
         "values": {
-            "cloudBase": 6.74,
+            "cloudBase": 6.51,
             "cloudCeiling": null,
             "cloudCover": 100,
             "dewPoint": 11,
@@ -135,15 +135,15 @@
             "visibility": 16,
             "weatherCode": 1001,
             "windDirection": 160,
-            "windGust": 10.91,
+            "windGust": 11.29,
             "windSpeed": 4.75
         }
     },
     {
         "time": "2024-11-19T07:00:00Z",
         "values": {
-            "cloudBase": 6.93,
-            "cloudCeiling": 9.55,
+            "cloudBase": 6.35,
+            "cloudCeiling": 9.75,
             "cloudCover": 100,
             "dewPoint": 11,
             "evapotranspiration": 0.083,
@@ -170,15 +170,15 @@
             "visibility": 16,
             "weatherCode": 1001,
             "windDirection": 160,
-            "windGust": 11.75,
+            "windGust": 11.53,
             "windSpeed": 4.79
         }
     },
     {
         "time": "2024-11-19T08:00:00Z",
         "values": {
-            "cloudBase": 2.97,
-            "cloudCeiling": 9.22,
+            "cloudBase": 2.52,
+            "cloudCeiling": 7.26,
             "cloudCover": 100,
             "dewPoint": 11.15,
             "evapotranspiration": 0.075,
@@ -205,15 +205,15 @@
             "visibility": 16,
             "weatherCode": 1001,
             "windDirection": 163.76,
-            "windGust": 11.36,
+            "windGust": 10.62,
             "windSpeed": 4.78
         }
     },
     {
         "time": "2024-11-19T09:00:00Z",
         "values": {
-            "cloudBase": 2.33,
-            "cloudCeiling": 2.35,
+            "cloudBase": 2.43,
+            "cloudCeiling": 2.54,
             "cloudCover": 100,
             "dewPoint": 12.84,
             "evapotranspiration": 0.036,
@@ -237,18 +237,18 @@
             "temperatureApparent": 15.23,
             "uvHealthConcern": 0,
             "uvIndex": 0,
-            "visibility": 2.64,
+            "visibility": 8.3,
             "weatherCode": 4201,
             "windDirection": 160,
-            "windGust": 13.94,
+            "windGust": 12.05,
             "windSpeed": 5.49
         }
     },
     {
         "time": "2024-11-19T10:00:00Z",
         "values": {
-            "cloudBase": 1.82,
-            "cloudCeiling": 3.71,
+            "cloudBase": 2.14,
+            "cloudCeiling": 2,
             "cloudCover": 100,
             "dewPoint": 13.5,
             "evapotranspiration": 0.025,
@@ -256,7 +256,7 @@
             "humidity": 84.89,
             "iceAccumulation": 0,
             "iceAccumulationLwe": 0,
-            "precipitationProbability": 55,
+            "precipitationProbability": 40,
             "pressureSurfaceLevel": 970.89,
             "rainAccumulation": 3.09,
             "rainAccumulationLwe": 0,
@@ -272,18 +272,18 @@
             "temperatureApparent": 15.62,
             "uvHealthConcern": 0,
             "uvIndex": 0,
-            "visibility": 5.09,
+            "visibility": 15.93,
             "weatherCode": 4001,
             "windDirection": 155.34,
-            "windGust": 13.25,
+            "windGust": 12.03,
             "windSpeed": 5.5
         }
     },
     {
         "time": "2024-11-19T11:00:00Z",
         "values": {
-            "cloudBase": 2.52,
-            "cloudCeiling": 3.68,
+            "cloudBase": 2.15,
+            "cloudCeiling": 6.71,
             "cloudCover": 100,
             "dewPoint": 13.5,
             "evapotranspiration": 0.024,
@@ -310,7 +310,7 @@
             "visibility": 16,
             "weatherCode": 1001,
             "windDirection": 159.53,
-            "windGust": 12.26,
+            "windGust": 16.54,
             "windSpeed": 6.1
         }
     },
