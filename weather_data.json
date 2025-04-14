@@ -1,54 +1,19 @@
 [
     {
-        "time": "2025-04-14T19:00:00Z",
+        "time": "2025-04-14T20:00:00Z",
         "values": {
             "cloudBase": 16,
             "cloudCeiling": 16,
-            "cloudCover": 1,
-            "dewPoint": 13.6,
-            "evapotranspiration": 0.423,
-            "freezingRainIntensity": 0,
-            "humidity": 46,
-            "iceAccumulation": 0,
-            "iceAccumulationLwe": 0,
-            "precipitationProbability": 0,
-            "pressureSeaLevel": 1011.59,
-            "pressureSurfaceLevel": 972.68,
-            "rainAccumulation": 0,
-            "rainIntensity": 0,
-            "sleetAccumulation": 0,
-            "sleetAccumulationLwe": 0,
-            "sleetIntensity": 0,
-            "snowAccumulation": 0,
-            "snowAccumulationLwe": 0,
-            "snowDepth": 0,
-            "snowIntensity": 0,
-            "temperature": 26.2,
-            "temperatureApparent": 26.2,
-            "uvHealthConcern": 3,
-            "uvIndex": 7,
-            "visibility": 16,
-            "weatherCode": 1000,
-            "windDirection": 220,
-            "windGust": 11.5,
-            "windSpeed": 6.9
-        }
-    },
-    {
-        "time": "2025-04-14T20:00:00Z",
-        "values": {
-            "cloudBase": null,
-            "cloudCeiling": null,
-            "cloudCover": 1,
+            "cloudCover": 0,
             "dewPoint": 12.5,
             "evapotranspiration": 0.292,
             "freezingRainIntensity": 0,
-            "humidity": 41,
+            "humidity": 40,
             "iceAccumulation": 0,
             "iceAccumulationLwe": 0,
             "precipitationProbability": 0,
-            "pressureSeaLevel": 1010.95,
-            "pressureSurfaceLevel": 971.89,
+            "pressureSeaLevel": 1010.69,
+            "pressureSurfaceLevel": 971.84,
             "rainAccumulation": 0,
             "rainIntensity": 0,
             "sleetAccumulation": 0,
@@ -58,15 +23,15 @@
             "snowAccumulationLwe": 0,
             "snowDepth": 0,
             "snowIntensity": 0,
-            "temperature": 27,
-            "temperatureApparent": 26.9,
+            "temperature": 27.1,
+            "temperatureApparent": 27,
             "uvHealthConcern": 2,
             "uvIndex": 5,
             "visibility": 16,
             "weatherCode": 1000,
-            "windDirection": 224,
-            "windGust": 12,
-            "windSpeed": 7.6
+            "windDirection": 222,
+            "windGust": 10.7,
+            "windSpeed": 7.8
         }
     },
     {
@@ -100,7 +65,7 @@
             "visibility": 16,
             "weatherCode": 1000,
             "windDirection": 224,
-            "windGust": 13.1,
+            "windGust": 12.5,
             "windSpeed": 7.6
         }
     },
@@ -135,7 +100,7 @@
             "visibility": 16,
             "weatherCode": 1000,
             "windDirection": 232,
-            "windGust": 12.2,
+            "windGust": 11.7,
             "windSpeed": 7
         }
     },
@@ -170,7 +135,7 @@
             "visibility": 16,
             "weatherCode": 1000,
             "windDirection": 228,
-            "windGust": 11.8,
+            "windGust": 11.5,
             "windSpeed": 6
         }
     },
@@ -179,7 +144,7 @@
         "values": {
             "cloudBase": null,
             "cloudCeiling": null,
-            "cloudCover": 9,
+            "cloudCover": 1,
             "dewPoint": 11.5,
             "evapotranspiration": 0.336,
             "freezingRainIntensity": 0,
@@ -214,7 +179,7 @@
         "values": {
             "cloudBase": null,
             "cloudCeiling": null,
-            "cloudCover": 17,
+            "cloudCover": 5,
             "dewPoint": 11.5,
             "evapotranspiration": 0.285,
             "freezingRainIntensity": 0,
@@ -238,9 +203,9 @@
             "uvHealthConcern": 0,
             "uvIndex": 0,
             "visibility": 16,
-            "weatherCode": 1100,
+            "weatherCode": 1000,
             "windDirection": 225,
-            "windGust": 7.2,
+            "windGust": 7.5,
             "windSpeed": 3.8
         }
     },
@@ -249,7 +214,7 @@
         "values": {
             "cloudBase": null,
             "cloudCeiling": null,
-            "cloudCover": 6,
+            "cloudCover": 15,
             "dewPoint": 12,
             "evapotranspiration": 0.238,
             "freezingRainIntensity": 0,
@@ -273,18 +238,18 @@
             "uvHealthConcern": 0,
             "uvIndex": 0,
             "visibility": 16,
-            "weatherCode": 1000,
+            "weatherCode": 1100,
             "windDirection": 240,
-            "windGust": 7.5,
+            "windGust": 7.7,
             "windSpeed": 3.3
         }
     },
     {
         "time": "2025-04-15T03:00:00Z",
         "values": {
-            "cloudBase": null,
+            "cloudBase": 1.9,
             "cloudCeiling": null,
-            "cloudCover": 3,
+            "cloudCover": 40,
             "dewPoint": 12.6,
             "evapotranspiration": 0.192,
             "freezingRainIntensity": 0,
@@ -308,20 +273,20 @@
             "uvHealthConcern": 0,
             "uvIndex": 0,
             "visibility": 16,
-            "weatherCode": 1000,
+            "weatherCode": 1101,
             "windDirection": 240,
-            "windGust": 8.4,
+            "windGust": 11.2,
             "windSpeed": 3.1
         }
     },
     {
         "time": "2025-04-15T04:00:00Z",
         "values": {
-            "cloudBase": 1.7,
-            "cloudCeiling": null,
-            "cloudCover": 84,
+            "cloudBase": 0.7,
+            "cloudCeiling": 0.8,
+            "cloudCover": 100,
             "dewPoint": 13.5,
-            "evapotranspiration": 0.122,
+            "evapotranspiration": 0.159,
             "freezingRainIntensity": 0,
             "humidity": 73,
             "iceAccumulation": 0,
@@ -342,18 +307,18 @@
             "temperatureApparent": 18.3,
             "uvHealthConcern": 0,
             "uvIndex": 0,
-            "visibility": 16,
+            "visibility": 15.6,
             "weatherCode": 1001,
             "windDirection": 288,
-            "windGust": 7.3,
+            "windGust": 8.8,
             "windSpeed": 3.1
         }
     },
     {
         "time": "2025-04-15T05:00:00Z",
         "values": {
-            "cloudBase": 1.2,
-            "cloudCeiling": 1.2,
+            "cloudBase": 1.3,
+            "cloudCeiling": 1.4,
             "cloudCover": 100,
             "dewPoint": 12.9,
             "evapotranspiration": 0.119,
@@ -380,7 +345,7 @@
             "visibility": 16,
             "weatherCode": 1001,
             "windDirection": 304,
-            "windGust": 9.7,
+            "windGust": 9.6,
             "windSpeed": 3.6
         }
     },
@@ -388,7 +353,7 @@
         "time": "2025-04-15T06:00:00Z",
         "values": {
             "cloudBase": 1,
-            "cloudCeiling": 1,
+            "cloudCeiling": 1.2,
             "cloudCover": 100,
             "dewPoint": 11.9,
             "evapotranspiration": 0.114,
@@ -396,7 +361,7 @@
             "humidity": 79,
             "iceAccumulation": 0,
             "iceAccumulationLwe": 0,
-            "precipitationProbability": 20,
+            "precipitationProbability": 30,
             "pressureSeaLevel": 1014,
             "pressureSurfaceLevel": 974.89,
             "rainAccumulation": 0.26,
@@ -415,15 +380,15 @@
             "visibility": 16,
             "weatherCode": 4000,
             "windDirection": 320,
-            "windGust": 8.9,
+            "windGust": 11,
             "windSpeed": 4.7
         }
     },
     {
         "time": "2025-04-15T07:00:00Z",
         "values": {
-            "cloudBase": 0.8,
-            "cloudCeiling": 0.8,
+            "cloudBase": 1.2,
+            "cloudCeiling": 1.7,
             "cloudCover": 100,
             "dewPoint": 10.7,
             "evapotranspiration": 0.14,
@@ -447,10 +412,10 @@
             "temperatureApparent": 14.5,
             "uvHealthConcern": 0,
             "uvIndex": 0,
-            "visibility": 12.91,
+            "visibility": 8.25,
             "weatherCode": 4200,
             "windDirection": 304,
-            "windGust": 8.4,
+            "windGust": 11.2,
             "windSpeed": 4.8
         }
     },
@@ -458,7 +423,7 @@
         "time": "2025-04-15T08:00:00Z",
         "values": {
             "cloudBase": 2.1,
-            "cloudCeiling": 3.1,
+            "cloudCeiling": 2,
             "cloudCover": 100,
             "dewPoint": 8.1,
             "evapotranspiration": 0.125,
@@ -485,15 +450,15 @@
             "visibility": 16,
             "weatherCode": 1001,
             "windDirection": 304,
-            "windGust": 10.1,
+            "windGust": 9,
             "windSpeed": 4
         }
     },
     {
         "time": "2025-04-15T09:00:00Z",
         "values": {
-            "cloudBase": 2.1,
-            "cloudCeiling": 2,
+            "cloudBase": 2.4,
+            "cloudCeiling": 2.3,
             "cloudCover": 100,
             "dewPoint": 7.5,
             "evapotranspiration": 0.121,
@@ -520,16 +485,16 @@
             "visibility": 16,
             "weatherCode": 1001,
             "windDirection": 296,
-            "windGust": 9.9,
+            "windGust": 8.1,
             "windSpeed": 3.7
         }
     },
     {
         "time": "2025-04-15T10:00:00Z",
         "values": {
-            "cloudBase": 2.6,
+            "cloudBase": 2.5,
             "cloudCeiling": null,
-            "cloudCover": 93,
+            "cloudCover": 86,
             "dewPoint": 5.9,
             "evapotranspiration": 0.113,
             "freezingRainIntensity": 0,
@@ -555,16 +520,16 @@
             "visibility": 16,
             "weatherCode": 1001,
             "windDirection": 305,
-            "windGust": 11.1,
+            "windGust": 10.5,
             "windSpeed": 4
         }
     },
     {
         "time": "2025-04-15T11:00:00Z",
         "values": {
-            "cloudBase": null,
+            "cloudBase": 3.3,
             "cloudCeiling": null,
-            "cloudCover": 32,
+            "cloudCover": 92,
             "dewPoint": 5.1,
             "evapotranspiration": 0.103,
             "freezingRainIntensity": 0,
@@ -588,9 +553,9 @@
             "uvHealthConcern": 0,
             "uvIndex": 0,
             "visibility": 16,
-            "weatherCode": 1100,
+            "weatherCode": 1001,
             "windDirection": 304,
-            "windGust": 7.6,
+            "windGust": 11.3,
             "windSpeed": 3.7
         }
     },
@@ -625,7 +590,7 @@
             "visibility": 16,
             "weatherCode": 1000,
             "windDirection": 288,
-            "windGust": 6.8,
+            "windGust": 10.8,
             "windSpeed": 3.2
         }
     },
@@ -660,7 +625,7 @@
             "visibility": 16,
             "weatherCode": 1000,
             "windDirection": 296,
-            "windGust": 13.4,
+            "windGust": 12.9,
             "windSpeed": 5.3
         }
     },
@@ -669,9 +634,9 @@
         "values": {
             "cloudBase": null,
             "cloudCeiling": null,
-            "cloudCover": 1,
+            "cloudCover": 0,
             "dewPoint": 2.3,
-            "evapotranspiration": 0.137,
+            "evapotranspiration": 0.156,
             "freezingRainIntensity": 0,
             "humidity": 59,
             "iceAccumulation": 0,
@@ -695,7 +660,7 @@
             "visibility": 16,
             "weatherCode": 1000,
             "windDirection": 304,
-            "windGust": 11.4,
+            "windGust": 13,
             "windSpeed": 5.9
         }
     },
@@ -730,7 +695,7 @@
             "visibility": 16,
             "weatherCode": 1000,
             "windDirection": 304,
-            "windGust": 12.2,
+            "windGust": 12.1,
             "windSpeed": 6.7
         }
     },
@@ -765,7 +730,7 @@
             "visibility": 16,
             "weatherCode": 1000,
             "windDirection": 304,
-            "windGust": 11.1,
+            "windGust": 12.7,
             "windSpeed": 6.7
         }
     },
@@ -774,7 +739,7 @@
         "values": {
             "cloudBase": null,
             "cloudCeiling": null,
-            "cloudCover": 11,
+            "cloudCover": 0,
             "dewPoint": 1,
             "evapotranspiration": 0.189,
             "freezingRainIntensity": 0,
@@ -800,7 +765,7 @@
             "visibility": 16,
             "weatherCode": 1000,
             "windDirection": 296,
-            "windGust": 12,
+            "windGust": 13.8,
             "windSpeed": 6.7
         }
     },
@@ -809,7 +774,7 @@
         "values": {
             "cloudBase": null,
             "cloudCeiling": null,
-            "cloudCover": 3,
+            "cloudCover": 0,
             "dewPoint": 0.7,
             "evapotranspiration": 0.209,
             "freezingRainIntensity": 0,
@@ -835,7 +800,42 @@
             "visibility": 16,
             "weatherCode": 1000,
             "windDirection": 288,
-            "windGust": 13.2,
+            "windGust": 12.3,
+            "windSpeed": 6.9
+        }
+    },
+    {
+        "time": "2025-04-15T19:00:00Z",
+        "values": {
+            "cloudBase": null,
+            "cloudCeiling": null,
+            "cloudCover": 3,
+            "dewPoint": 0.5,
+            "evapotranspiration": 0.241,
+            "freezingRainIntensity": 0,
+            "humidity": 42,
+            "iceAccumulation": 0,
+            "iceAccumulationLwe": 0,
+            "precipitationProbability": 0,
+            "pressureSeaLevel": 1018,
+            "pressureSurfaceLevel": 978.42,
+            "rainAccumulation": 0,
+            "rainIntensity": 0,
+            "sleetAccumulation": 0,
+            "sleetAccumulationLwe": 0,
+            "sleetIntensity": 0,
+            "snowAccumulation": 0,
+            "snowAccumulationLwe": 0,
+            "snowDepth": 0,
+            "snowIntensity": 0,
+            "temperature": 13.5,
+            "temperatureApparent": 13.5,
+            "uvHealthConcern": 2,
+            "uvIndex": 5,
+            "visibility": 16,
+            "weatherCode": 1000,
+            "windDirection": 288,
+            "windGust": 11.2,
             "windSpeed": 6.9
         }
     }
