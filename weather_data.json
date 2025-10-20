@@ -1,41 +1,5 @@
 [
     {
-        "time": "2025-10-20T07:00:00Z",
-        "values": {
-            "altimeterSetting": 1018.98,
-            "cloudBase": null,
-            "cloudCeiling": null,
-            "cloudCover": 0,
-            "dewPoint": 3.8,
-            "evapotranspiration": 0.02,
-            "freezingRainIntensity": 0,
-            "humidity": 81,
-            "iceAccumulation": 0,
-            "iceAccumulationLwe": 0,
-            "precipitationProbability": 0,
-            "pressureSeaLevel": 1018.17,
-            "pressureSurfaceLevel": 979.37,
-            "rainAccumulation": 0,
-            "rainIntensity": 0,
-            "sleetAccumulation": 0,
-            "sleetAccumulationLwe": 0,
-            "sleetIntensity": 0,
-            "snowAccumulation": 0,
-            "snowAccumulationLwe": 0,
-            "snowDepth": 0,
-            "snowIntensity": 0,
-            "temperature": 6,
-            "temperatureApparent": 6,
-            "uvHealthConcern": 0,
-            "uvIndex": 0,
-            "visibility": 16,
-            "weatherCode": 1000,
-            "windDirection": 152,
-            "windGust": 4,
-            "windSpeed": 2.3
-        }
-    },
-    {
         "time": "2025-10-20T08:00:00Z",
         "values": {
             "altimeterSetting": 1019.12,
@@ -197,6 +161,8 @@
             "pressureSurfaceLevel": 982.41,
             "rainAccumulation": 0,
             "rainIntensity": 0,
+            "sleetAccumulation": 0,
+            "sleetAccumulationLwe": 0,
             "sleetIntensity": 0,
             "snowAccumulation": 0,
             "snowAccumulationLwe": 0,
@@ -823,6 +789,40 @@
             "windDirection": 179,
             "windGust": 7.9,
             "windSpeed": 4.4
+        }
+    },
+    {
+        "time": "2025-10-21T07:00:00Z",
+        "values": {
+            "altimeterSetting": 1015.23,
+            "cloudBase": null,
+            "cloudCeiling": null,
+            "cloudCover": 0,
+            "dewPoint": 4.5,
+            "evapotranspiration": 0.124,
+            "freezingRainIntensity": 0,
+            "humidity": 59,
+            "iceAccumulation": 0,
+            "iceAccumulationLwe": 0,
+            "precipitationProbability": 0,
+            "pressureSeaLevel": 1014.4,
+            "pressureSurfaceLevel": 975.74,
+            "rainAccumulation": 0,
+            "rainIntensity": 0,
+            "sleetIntensity": 0,
+            "snowAccumulation": 0,
+            "snowAccumulationLwe": 0,
+            "snowDepth": 0,
+            "snowIntensity": 0,
+            "temperature": 10.6,
+            "temperatureApparent": 10.6,
+            "uvHealthConcern": 0,
+            "uvIndex": 0,
+            "visibility": 16,
+            "weatherCode": 1000,
+            "windDirection": 186,
+            "windGust": 9.2,
+            "windSpeed": 5.3
         }
     }
 ]
