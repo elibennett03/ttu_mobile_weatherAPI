@@ -1,44 +1,44 @@
-name: Run Weather Script
+# name: Run Weather Script
 
-on:
-  schedule:
-    - cron: '0 * * * *'  # Runs every hour
-  workflow_dispatch:
+# on:
+#   schedule:
+#     - cron: '0 * * * *'  # Runs every hour
+#   workflow_dispatch:
 
-jobs:
-  run-script:
-    runs-on: ubuntu-latest
+# jobs:
+#   run-script:
+#     runs-on: ubuntu-latest
 
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-      with:
-        token: ${{ secrets.PAT_TOKEN }}
+#     steps:
+#     - name: Checkout code
+#       uses: actions/checkout@v2
+#       with:
+#         token: ${{ secrets.PAT_TOKEN }}
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.12'
+#     - name: Set up Python
+#       uses: actions/setup-python@v4
+#       with:
+#         python-version: '3.12'
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+#     - name: Install dependencies
+#       run: |
+#         python -m pip install --upgrade pip
+#         pip install -r requirements.txt
 
-    - name: Run script
-      env:
-        API_KEY: ${{ secrets.API_KEY }}
-      run: python main2.py
+#     - name: Run script
+#       env:
+#         API_KEY: ${{ secrets.API_KEY }}
+#       run: python main2.py
 
-    - name: Configure git
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
+#     - name: Configure git
+#       run: |
+#         git config user.name "github-actions[bot]"
+#         git config user.email "github-actions[bot]@users.noreply.github.com"
 
-    - name: Commit and push changes
-      run: |
-        git add weather_data.json
-        git commit -m "Update weather data"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+#     - name: Commit and push changes
+#       run: |
+#         git add weather_data.json
+#         git commit -m "Update weather data"
+#         git push
+#       env:
+#         GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
